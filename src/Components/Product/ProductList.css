@@ -1,0 +1,33 @@
+.filter-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    margin: 12px 12px;
+    gap: 24px;
+}
+
+.filter-form > input {
+    all: unset;
+    border-bottom: 1px solid gray;
+}
+
+.filter-form label {
+    margin-right: 8px;
+}
+
+.filter-form select {
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.filter-form button {
+    all: unset;
+    padding: 4px;
+    cursor: pointer;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
