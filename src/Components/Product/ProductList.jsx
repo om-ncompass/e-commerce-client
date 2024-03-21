@@ -6,7 +6,7 @@ import './ProductList.css'
 
 const ProductList = () => {
 
-  let url = "http://localhost:3000/product";
+  let url = "http://54.153.234.233:3002/product";
 
   const [type, setType] = useState();
   const [rating, setRating] = useState();

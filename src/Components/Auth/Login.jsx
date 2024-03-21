@@ -22,7 +22,7 @@ const Login = () => {
         event.preventDefault();
         try {    
             const loginResponse = await axios.post(
-                "http://localhost:3000/auth/login",
+                "http://54.153.234.233:3002/auth/login",
                 { email, password },
                 {
                   headers: {

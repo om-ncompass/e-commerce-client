@@ -21,7 +21,7 @@ const Home = () => {
 
   const fetchProductTypes = async () => {
     const productTypes = await axios.get(
-      "http://localhost:3000/product/types",
+      "http://54.153.234.233:3002/product/types",
       {},
       {
         headers: {

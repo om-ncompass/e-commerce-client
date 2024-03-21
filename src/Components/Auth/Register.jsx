@@ -34,7 +34,7 @@ const Register = () => {
       try {
   
           const signUpResponse = await axios.post(
-            "http://localhost:3000/user",
+            "http://54.153.234.233:3002/user",
             { email, firstName, lastName, password},
             {
               headers: {
